@@ -39,6 +39,7 @@ let cargarCabecero = () =>{
     document.getElementById('egresos').innerHTML = formatoMoneda(totalEgresos());
 }
 
+//formato de moneda
 const formatoMoneda = (valor) => {
     return valor.toLocaleString('en-US',{style:'currency', currency:'USD', minimunFractionDigits: 2});
 }
