@@ -54,7 +54,7 @@ const cargarIngresos = () =>{
     }
     document.getElementById('lista ingresos').innerHTML = ingresosHTML;
 }
-//esta parte la hice con el tutorial delde udemy, que no se si está bien esto.-
+//esta parte la hice con el tutorial delde udemy, que no se si está bien esto. igual no está terminado.
 const crearIngresoHTML = (ingreso) =>{
     let ingresoHTML = `
     <div class="elemento limpiarEstilos">
